@@ -1,8 +1,6 @@
 
 ```
 -javaagent:./splunk-otel-javaagent-1.13.0-SNAPSHOT.jar
--Dxotel.javaagent.enabled=false
--Dxotel.javaagent.experimental.use-noop-api=true
 -Dotel.instrumentation.common.default-enabled=false
 -Dotel.javaagent.debug=true
 -Dsplunk.profiler.enabled=true
